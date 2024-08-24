@@ -1,0 +1,503 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #fff;
+    font-family: "Cinzel", serif !important;
+    overflow-x: hidden;
+}
+
+.contain {
+    margin: 0px 60px;
+}
+
+.main-container {
+    margin: 0px 140px;
+}
+
+.container-left {
+    margin-left: 140px;
+}
+
+.container-right {
+    margin-right: 140px;
+}
+
+.text-decoration-none {
+    text-decoration: none !important;
+}
+
+.nav-position {
+    position: relative;
+    z-index: 2;
+}
+
+h1 {
+    font-family: "Cinzel", serif !important;
+    font-size: 41.73px;
+    font-weight: 400;
+    line-height: 56.25px;
+    text-align: center;
+    color: #fff;
+}
+
+h2 {
+    font-family: "Cinzel", serif !important;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 43.14px;
+    text-align: left;
+}
+
+.section-p {
+    font-family: "Cormorant", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.38px;
+    text-align: left;
+
+}
+
+.main-btn-1 {
+    background-color: #79C8D3;
+    border-radius: 23.42px;
+    padding: 5px 10px;
+    outline: none;
+    border: 0px;
+    color: #fff;
+    margin-top: 10px;
+    box-shadow: 3.9px 3.9px 3.12px 0px #00000066;
+    cursor: pointer;
+}
+
+.main-btn-2 {
+    background-color: #FF0308;
+    border-radius: 23.42px;
+    padding: 5px 10px;
+    outline: none;
+    border: 0px;
+    color: #fff;
+    margin-top: 15px;
+    box-shadow: 3.9px 3.9px 3.12px 0px #00000066;
+    cursor: pointer;
+}
+
+/* banner css */
+.banner-img {
+    background-image: url(../img/banner/banner.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 950px;
+}
+
+.banner-bg-color {
+    width: 100%;
+    height: 950px;
+    background-color: #0003;
+    position: relative;
+}
+
+
+.banner-tree {
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    bottom: -1%;
+}
+
+/* about css */
+.mg-curv-1 {
+    width: 100%;
+    height: 360px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.banner-video {
+    width: 100%;
+    height: 360px;
+    border-radius: 20px 0px 0px 20px;
+    object-fit: cover;
+}
+
+.play-btn {
+    background: none;
+    /* No background color */
+    border-radius: 50%;
+    border: 3px solid white;
+    font-size: 2rem;
+    color: white;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+    /* Ensures the button is above the video */
+}
+
+.play-btn:focus {
+    outline: none;
+    /* Remove the focus outline */
+}
+
+video {
+    cursor: pointer;
+    /* Add pointer cursor to indicate video can be clicked */
+}
+
+.text-width {
+    width: 85%;
+}
+
+.ab-2-img {
+    margin-top: -3%;
+}
+
+.margin-t-minose {
+    margin-top: -6%;
+    position: relative;
+    z-index: 2;
+}
+
+.ab-3-img {
+    width: 100%;
+    height: 360px;
+}
+
+.text-width-left {
+    margin-left: 30px;
+}
+
+.ab-4-img {
+    margin-top: -15%;
+}
+
+/* Express css */
+.Express-box {
+    background-color: #FF0308;
+    width: 100%;
+    padding: 0px 40px 185px 80px;
+    position: relative;
+
+}
+
+.e1-img {
+    width: 100%;
+}
+
+.e2-img {
+    position: absolute;
+    bottom: -27%;
+    left: 0;
+    width: 100%;
+}
+
+.e3-img {
+    position: absolute;
+    left: 0%;
+    top: -38%;
+}
+
+.e4-img {
+    left: 0px;
+    z-index: 2;
+    margin-top: -7%;
+    width: 300px;
+    position: relative;
+}
+
+.e5-img {
+    z-index: 2;
+    right: 0px;
+    width: 100%;
+    width: 300px;
+    position: relative;
+}
+
+.e-box {
+    border-radius: 0px 20px 20px 0px;
+    background-color: #79C8D3;
+    position: relative;
+    margin-top: -5%;
+    z-index: 3;
+    margin-right: 50px;
+    height: 500px;
+    padding: 50px 50px 50px 150px;
+}
+
+.e-box p {
+    font-family: "Cormorant", serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 29.18px;
+    text-align: left;
+    margin-top: 150px;
+}
+
+.e6-img {
+    right: 0%;
+    position: relative;
+    width: 100%;
+    margin-top: -23%;
+    margin-left: 40px;
+}
+
+/* whats on  */
+.WHAT-head {
+    font-family: "Cinzel", serif !important;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+}
+
+.WHAT-sub-head {
+    font-family: Cinzel;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 64.7px;
+    text-align: left;
+    color: #FF0308;
+    margin-top: 40px;
+}
+
+.WHAT-mt {
+    margin-top: -13%;
+}
+
+.WHAT-sub-head-2 {
+    font-family: "Cormorant", serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 35px;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.WHAT-p {
+    font-family: Cormorant;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.e7-img {
+    width: 100%;
+    margin-top: -5%;
+}
+
+/* Market Experience */
+.timeline-h6 {
+    font-family: "Cinzel", serif !important;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48.53px;
+    text-align: left;
+
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding-left: 0px;
+    position: relative;
+}
+
+li p {
+    margin-left: 45px;
+}
+
+.time-lime-boll {
+    width: 17px;
+    height: 17px;
+    background-color: #FF0308;
+    border-radius: 30px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.time-lime-boll-line {
+    width: 6px;
+    height: 83%;
+    background-color: #FF0308;
+    margin-right: 20px;
+    position: absolute;
+    top: 3%;
+    left: 5px;
+}
+
+.time-line-img {
+    height: 810px;
+    width: 100%;
+    object-fit: contain;
+}
+
+/* video */
+.banner-video1 {
+    width: 100%;
+    border-radius: 20px 0px 0px 20px;
+
+}
+
+.s1-img {
+    width: 100%;
+    margin-top: -2%;
+}
+
+/* child css */
+.child-box {
+    background-color: #FF0308;
+    border-radius: 0px 20px 20px 0px;
+    padding: 50px 100px;
+}
+
+.child-box h6 {
+    font-family: "Cormorant", serif;
+    font-size: 40.56px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    color: #fff;
+}
+
+.child-box h6 p {
+    font-family: "Cormorant", serif;
+    font-size: 20.28px;
+    font-weight: 400;
+    line-height: 24.56px;
+    text-align: left;
+    color: #fff;
+}
+
+.child-box p {
+    font-family: "Cormorant", serif;
+    font-size: 29.95px;
+    font-weight: 400;
+    line-height: 36.28px;
+    text-align: left;
+    color: #fff;
+}
+
+.child-box-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.child-1-img {
+    position: absolute;
+    right: 0;
+    top: 14%;
+    width: 350px;
+}
+
+.s2-img {
+    width: 100%;
+}
+
+/* attraction */
+.attraction-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.attraction-box {
+    width: 85%;
+}
+
+/* faq */
+.faq-moinos {
+    margin-top: -10%;
+}
+
+.border-b-blue {
+    border-bottom: 1px solid#79C8D3;
+}
+
+.accordion-button:focus {
+    border: 0px;
+    box-shadow: 0 0 0 0rem rgba(13, 110, 253, .25);
+}
+
+.accordion-item {
+    border: 0px;
+    border-bottom: 1px solid#79C8D3;
+}
+
+.accordion-button .collapsed {
+    font-family: "Cormorant", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.38px;
+    text-align: left;
+}
+
+button.accordion-button.collapsed {
+    padding: 10px 0px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #79C8D3;
+    background-color: transparent;
+    padding: 10px 0px;
+}
+
+.accordion-button::after {
+    background-image: url(../img/img/accodion-colse.svg);
+    width: 12px;
+    height: 12px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../img/img/accodion-open.svg);
+    width: 12px;
+    height: 12px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.sata-1-img {
+    width: 300px;
+    margin-top: -18%;
+    position: relative;
+    z-index: 1;
+}
+
+/* happy visitors */
+.visitors-moinus {
+    margin-top: -10%;
+}
+
+.border-r {
+    border-right: 1px solid#000;
+}
+
+.s5-img {
+    width: 100%;
+}
+
+/* map */
+iframe {
+    width: 100% !important;
+    border-radius: 20px !important;
+    height: 400px !important;
+}
+
+.s6-img {
+    width: 100%;
+    position: absolute;
+    top: 0%;
+}

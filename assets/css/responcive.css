@@ -1,0 +1,278 @@
+/* media screen 992 */
+@media only screen and (max-width: 992px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .sata-1-img {
+        width: 150px;
+    }
+
+    .nav-bar {
+        display: none !important;
+    }
+
+    .navbar-responcive {
+        display: block !important;
+    }
+
+    .banner-text {
+        width: 90%;
+    }
+
+    .container-left {
+        margin-left: 90px;
+    }
+
+    .container-right {
+        margin-right: 90px;
+    }
+
+    .e2-img {
+        bottom: -2%;
+        left: -1px;
+        right: -1px;
+        width: 101%;
+    }
+
+    .e3-img {
+        left: 0%;
+        top: -20%;
+        height: 450px;
+    }
+
+    .ab-4-img {
+        margin-top: -8%;
+        width: 50%;
+    }
+
+    .ab-2-img {
+        width: 80%;
+    }
+
+    .time-line-img {
+        display: none;
+    }
+
+    .e6-img {
+        margin-left: 0px;
+    }
+
+    .main-container {
+        margin: 0px 100px;
+    }
+
+    .child-box {
+        padding: 50px;
+    }
+
+    .attraction-box {
+        width: 100%;
+    }
+
+    .child-1-img {
+        top: 41%;
+        width: 295px;
+    }
+
+    .s4-img {
+        padding-top: 0px !important;
+    }
+}
+
+/* media screen 768 */
+@media only screen and (max-width: 768px) {
+    .container-left {
+        margin-left: 50px;
+    }
+
+    .container-right {
+        margin-right: 50px;
+    }
+
+    br {
+        display: none;
+    }
+
+    .e3-img {
+        top: -18%;
+        height: 400px;
+    }
+
+    .ab-4-img {
+        width: 78%;
+    }
+
+    .banner-img,
+    .banner-bg-color {
+        height: 100vh;
+    }
+
+    .child-1-img {
+        top: 55%;
+        width: 162px;
+    }
+
+    .main-container {
+        margin: 0px 80px;
+    }
+
+    .footer-log {
+        width: 50%;
+    }
+}
+
+/* media screen 600 */
+@media only screen and (max-width: 600px) {
+    .timeline-h6 {
+        font-size: 25px;
+    }
+
+    .child-1-img {
+        top: 73%;
+        width: 108px;
+    }
+
+    .child-box h6 {
+        font-size: 25px;
+        line-height: normal;
+    }
+
+    .child-box p {
+        font-size: 20px;
+        line-height: normal;
+    }
+
+    .container-left {
+        margin-left: 30px;
+    }
+
+    .main-container {
+        margin: 0px 30px;
+    }
+
+    .e-box {
+        padding: 40px 40px 40px 40px;
+        margin-right: 0px;
+    }
+
+    .WHAT-sub-head {
+        line-height: normal;
+        font-size: 25px;
+        margin-top: 0px;
+    }
+
+    h2 {
+        font-size: 22px;
+        line-height: normal;
+    }
+
+    .ab-4-img,
+    .ab-2-img {
+        width: 340px;
+    }
+
+    .ab-3-img {
+        margin-bottom: 10px;
+    }
+
+    .WHAT-head {
+        font-size: 35px;
+    }
+
+    .e5-img {
+        width: 160px;
+    }
+
+    .e4-img {
+        width: 150px;
+    }
+
+    .Express-box {
+        padding: 0px 10px 109px 10px;
+    }
+
+    .e3-img {
+        top: -16%;
+        height: 318px;
+    }
+
+    .container-right {
+        margin-right: 30px;
+    }
+}
+
+/* media screen 400 */
+@media only screen and (max-width: 400px) {
+    footer {
+        padding-bottom: 100px;
+    }
+
+    .sata-1-img {
+        width: 53px;
+        margin-top: -18%;
+    }
+
+    .container-left {
+        margin-left: 10px;
+    }
+
+    .e1-img {
+        width: 100%;
+    }
+
+    .e2-img {
+        bottom: -1%;
+        left: -1px;
+        right: -1px;
+        width: 101%;
+    }
+
+    .text-width {
+        width: 100%;
+    }
+
+    .e3-img {
+        top: -7%;
+        height: 202px;
+    }
+
+    .ab-4-img {
+        width: 200px;
+    }
+
+    .container-right {
+        margin-right: 10px;
+    }
+
+    .e-box {
+        margin-right: 10px;
+        padding: 25px 25px 25px 25px;
+        height: 250px;
+    }
+
+    .e-box p {
+        margin-top: 20px;
+    }
+
+    .main-container {
+        margin: 0px 20px !important;
+    }
+
+    .e6-img {
+        margin-left: 0px;
+    }
+
+    .contain {
+        margin: 0px 10px !important;
+    }
+
+    .time-lime-boll-line {
+        top: 2%;
+    }
+
+    .timeline-h6 {
+        font-size: 22px;
+        line-height: normal;
+    }
+}
